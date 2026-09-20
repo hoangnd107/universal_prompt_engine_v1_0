@@ -1,0 +1,69 @@
+version: "2.0"
+mode:
+  type: "ORIGINAL"
+  source_strategy: "first_principles"
+channel:
+  name: "Hidden Systems Documentary"
+  language: "English"
+  market: "Global English-speaking audience"
+  format: "Faceless long-form documentary"
+  niche: "Infrastructure / engineering / technology / systems"
+  subniche: "Hidden systems behind everyday modern life"
+  positioning: "Explain the invisible systems that keep modern life functioning."
+  core_promise: "Make complicated infrastructure understandable without oversimplifying the underlying mechanism."
+  primary_format: "Narrated documentary explainer"
+  typical_video_length: "8-15 minutes"
+  publishing_pattern: "Evergreen-first"
+  business_goal: "Build a sustainable long-form YouTube media business"
+  monetization_context: "Ad revenue, sponsorships, affiliates, owned products"
+identity:
+  unique_value_proposition: "Systems explained through narrative, mechanism, evidence, and visual reconstruction."
+  viewer_promise: "The viewer should leave understanding both what happens and why it works."
+  differentiation:
+    - "Calm documentary tone"
+    - "Mechanism-first explanation"
+    - "Visual truth over cinematic spectacle"
+  non_negotiables:
+    - "Do not invent statistics."
+    - "Do not overstate uncertainty."
+    - "Keep technical explanations understandable."
+  forbidden_patterns:
+    - "Empty shock framing"
+    - "Unsupported superlatives"
+    - "Generic B-roll with no explanatory role"
+character_system:
+  mode: "NONE"
+  recurring_characters: []
+  appearance_lock: "Not applicable"
+  character_reference_policy: "Use canonical visual entity references instead of recurring human characters."
+visual_entity_system:
+  required: true
+  entity_types:
+    - "ships"
+    - "undersea cables"
+    - "ROVs"
+    - "ports"
+    - "maps"
+    - "infrastructure"
+  canonical_entities: []
+  identity_attributes:
+    - "shape"
+    - "materials"
+    - "markings"
+    - "relative scale"
+  reference_policy: "Create a canonical visual entity record for recurring engineering subjects."
+story_engine:
+  preferred_formats:
+    - "contradiction-led investigation"
+    - "mechanism explainer"
+    - "system journey"
+  circular_storytelling: "preferred"
+  leitmotif: "optional"
+visual_dna:
+  overall_style: "Premium cinematic technical documentary"
+  medium: "AI-generated image/video plus diagrams and maps"
+  visual_principles:
+    - "Readable engineering forms"
+    - "Strong silhouettes"
+    - "Controlled cinematic lighting"
+    - "Illustrative realism without false evidence claims"

@@ -1,0 +1,237 @@
+version: "2.0"
+schema_name: universal_youtube_channel_dna
+
+mode:
+  type: "ORIGINAL" # ORIGINAL | REFERENCE
+  source_strategy: "first_principles" # first_principles | reference_analysis | hybrid
+  source_scope:
+    channels_or_videos_analyzed: []
+    direct_attachments_analyzed: []
+    limitations: []
+
+channel:
+  name: ""
+  language: ""
+  market: ""
+  format: ""
+  niche: ""
+  subniche: ""
+  positioning: ""
+  core_promise: ""
+  primary_format: ""
+  typical_video_length: ""
+  publishing_pattern: ""
+  business_goal: ""
+  monetization_context: ""
+
+originality_boundary:
+  is_original_concept: true
+  abstraction_only_when_reference_mode: true
+  prohibited_copying:
+    - exact_scripts
+    - distinctive_phrasing
+    - exact_story_execution
+    - footage
+    - thumbnails
+    - logos_or_brand_assets
+    - distinctive_character_designs_without_permission
+
+universal_engine:
+  principles:
+    - structured_planning
+    - approval_gates
+    - scene_level_production_contract
+    - screenplay_metadata_separate_from_video_prompt
+    - consistency_locking
+    - quality_assurance
+  story_primitives:
+    ten_step_story_engine: true
+    circular_storytelling: "auto"
+    leitmotif: "auto"
+
+identity:
+  unique_value_proposition: ""
+  viewer_promise: ""
+  differentiation: []
+  non_negotiables: []
+  forbidden_patterns: []
+
+interests_and_audience:
+  primary_persona:
+    age_range: ""
+    geography: ""
+    language: ""
+    knowledge_level: ""
+    interests: []
+    jobs_or_contexts: []
+    motivations: []
+    pain_points: []
+    desired_outcomes: []
+    viewing_triggers: []
+  secondary_personas: []
+
+content_pillars:
+  - id: pillar_1
+    name: ""
+    description: ""
+    audience_need: ""
+    topic_patterns: []
+    exclusions: []
+  - id: pillar_2
+    name: ""
+    description: ""
+    audience_need: ""
+    topic_patterns: []
+    exclusions: []
+  - id: pillar_3
+    name: ""
+    description: ""
+    audience_need: ""
+    topic_patterns: []
+    exclusions: []
+
+editorial_strategy:
+  topic_generation_engine:
+    inputs: []
+    topic_formulae: []
+    novelty_rules: []
+    evergreen_bias: ""
+    trend_policy: ""
+  topic_selection_criteria: []
+  evidence_threshold: ""
+
+hook_engine:
+  dominant_patterns: []
+  opening_time_target_seconds: ""
+  hook_components: []
+  forbidden_openings: []
+
+story_engine:
+  preferred_formats: []
+  ten_step_mapping:
+    normal_life: ""
+    hook: ""
+    problem: ""
+    escalation: ""
+    attempt_to_solve: ""
+    complication: ""
+    discovery_turn: ""
+    solution: ""
+    emotional_payoff: ""
+    return_to_life: ""
+  circular_storytelling: "required" # required | preferred | optional | not_applicable
+  leitmotif: "optional" # required | preferred | optional | not_applicable
+
+retention_engine:
+  open_loops: []
+  reveal_strategy: []
+  escalation_strategy: []
+  reset_points: []
+  payoff_rules: []
+
+visual_dna:
+  overall_style: ""
+  medium: ""
+  visual_principles: []
+  color_logic: []
+  environment_logic: []
+  asset_strategy: []
+  forbidden_visuals: []
+  technical_visual_policy: ""
+
+character_system:
+  mode: "NONE" # NONE | FIXED_CAST | FLEXIBLE_CAST
+  recurring_characters: []
+  appearance_lock: ""
+  character_reference_policy: ""
+
+visual_entity_system:
+  required: true
+  entity_types: []
+  canonical_entities: []
+  identity_attributes: []
+  reference_policy: ""
+
+environment_system:
+  recurring_environments: []
+  continuity_rules: []
+
+camera_system:
+  framing_rules: []
+  movement_rules: []
+  lens_or_perspective_rules: []
+  continuity_rules: []
+
+narration_audio_dna:
+  narration_style: ""
+  sentence_style: ""
+  pacing: ""
+  emotional_register: ""
+  music_policy: ""
+  sound_design_policy: ""
+
+language_rules:
+  language: ""
+  register: ""
+  dialogue_required: false
+  max_dialogue_words_per_line: null
+  max_dialogue_turns_per_scene: null
+  contractions_allowed: null
+  subtitle_policy: ""
+
+packaging_dna:
+  title_principles: []
+  thumbnail_principles: []
+  thumbnail_output:
+    width: 1707
+    height: 282
+    dimensions: "1707x282"
+    aspect_ratio: "1707:282"
+    prompt_rule: "Generate the thumbnail on an exact 1707x282 canvas. Do not crop, pad, resize, or change the aspect ratio."
+  forbidden_packaging_patterns: []
+
+long_form_structure:
+  typical_duration_minutes: ""
+  acts: []
+  scenes_per_act: []
+  scene_duration_seconds: 8
+  pacing_notes: []
+
+veo_translation:
+  prompt_sections: []
+  character_injection_policy: ""
+  environment_injection_policy: ""
+  technical_visual_prompt_policy: ""
+  negative_prompt_policy: []
+
+integrity:
+  factuality_required: true
+  source_policy: ""
+  claim_types:
+    [
+      verified_fact,
+      estimate,
+      forecast,
+      attributed_claim,
+      interpretation,
+      uncertainty,
+    ]
+  numeric_precision_policy: ""
+  visual_truth_policy: ""
+  correction_policy: ""
+  policy_constraints: []
+
+qa:
+  originality_checks: []
+  anti_genericity_checks: []
+  factuality_checks: []
+  continuity_checks: []
+  visual_consistency_checks: []
+  prompt_export_checks: []
+
+reference_analysis_notes:
+  use_only_in_reference_mode: true
+  recurring_structural_patterns: []
+  observed_strengths: []
+  observed_constraints: []
+  uncertainty_notes: []
